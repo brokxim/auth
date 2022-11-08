@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.formButtonWrap {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+.formButtonWrap Button:first-child {
+  margin-right: 10px;
+}
+.input {
+  color: crimson;
+  border-color: crimson;
+}

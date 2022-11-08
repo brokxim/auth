@@ -1,0 +1,11 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin-bottom: 5px;
+    /* margin-left: 30%; */
+  }
+  .home Button:first-child {
+    margin-right: 5px;
+  }
+  
