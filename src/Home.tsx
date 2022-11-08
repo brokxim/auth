@@ -134,8 +134,8 @@ const Home = () => {
       });
   };
   return (
-    <>
-      {!isAuthenticated && (
+    <Box sx={{ backgroundColor: "red" }}>
+      {isAuthenticated && (
         <Box
           sx={{
             display: "flex",
@@ -197,7 +197,7 @@ const Home = () => {
           />
         </Box>
       )}
-    </>
+    </Box>
   );
 };
 export default Home;

@@ -5,7 +5,7 @@ import React from "react";
 
 const LogoutButton = () => {
   const { logout, isAuthenticated } = useAuth0();
-
+  console.log("first", isAuthenticated);
   return (
     <>
       {isAuthenticated && (
